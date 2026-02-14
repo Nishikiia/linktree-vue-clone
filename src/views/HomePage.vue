@@ -12,7 +12,7 @@ const profile = ref({
 <template>
   <main class="flex min-h-screen flex-col items-center px-4 py-8">
     <!--Profile Header-->
-    <div class="item-center mb-8 flex-col text-center">
+    <div class="mb-8 flex flex-col items-center text-center">
       <div
         class="mb-4 h-24 w-24 overflow-hidden rounded-full border-4 border-green-400 shadow-lg shadow-green-500/20"
       >
@@ -22,8 +22,10 @@ const profile = ref({
           class="h-full w-full object-cover"
         />
       </div>
-      <h1 class="font-display">{{ profile.name }}</h1>
-      <p>{{ profile.slogan }}</p>
+      <h1 class="sm.text-3xl mb-2 font-display text-2xl font-bold text-white">
+        {{ profile.name }}
+      </h1>
+      <p class="sm:text:lg max-w-xs text-gray-300">{{ profile.slogan }}</p>
     </div>
   </main>
 </template>
