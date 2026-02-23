@@ -39,11 +39,11 @@ const icons = {
     :href="url"
     target="_blank"
     rel="noopener noreferrer"
-    class="group relative flex w-full items-center gap-4 rounded-xl border border-gray-700 bg-gray-800 p-4 shadow-md shadow-gray-900/50 transition-all duration-300 hover:scale-[1.02] hover:border-blue-600 hover:shadow-xl hover:shadow-blue-500/20 active:scale-95"
+    class="group relative flex w-full items-center gap-4 rounded-xl border border-gray-700 bg-gray-800 p-4 shadow-md shadow-gray-900/50 transition-all duration-300 hover:scale-[1.02] hover:border-green-600 hover:shadow-xl hover:shadow-green-500/20 active:scale-95"
   >
     <!-- Icon Container -->
     <div
-      class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-gray-700 text-blue-400 transition-all duration-300 group-hover:scale-110 group-hover:bg-blue-500 group-hover:text-white group-hover:shadow-xl group-hover:shadow-blue-500/20"
+      class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-gray-700 text-green-400 transition-all duration-300 group-hover:scale-110 group-hover:bg-green-500 group-hover:text-white group-hover:shadow-xl group-hover:shadow-green-500/20"
     >
       <svg
         viewBox="0 0 24 24"
