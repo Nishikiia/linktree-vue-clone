@@ -6,6 +6,29 @@ const profile = ref({
   name: 'Britney Balderas',
   slogan: 'Gamer',
   avatar: 'https://api.dicebear.com/9.x/lorelei/svg',
+  links: [
+    {
+      id: 1,
+      title: 'Github',
+      url: 'https://github.com/?Nishikiia',
+      icon: 'code',
+      description: 'Check out my projects',
+    },
+    {
+      id: 2,
+      title: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/britney-balderas-a474ab360/',
+      icon: 'briefcase',
+      description: 'Connect with me professionally',
+    },
+    {
+      id: 3,
+      title: 'Expense Splitter',
+      url: 'https://expense-splitter-vue.expense-splitter-vue88532.workers.dev/',
+      icon: 'calculator',
+      description: 'Vue expense tracking app',
+    },
+  ],
 })
 </script>
 
