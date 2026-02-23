@@ -1,3 +1,24 @@
+<script setup>
+defineProps({
+  title: {
+    type: String,
+    required: true,
+  },
+  url: {
+    type: String,
+    required: true,
+  },
+  description: {
+    type: String,
+    default: '',
+  },
+  icon: {
+    type: String,
+    default: 'flag',
+  },
+})
+</script>
+
 <template>
   <a
     href="#"
