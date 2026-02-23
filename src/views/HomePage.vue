@@ -56,6 +56,10 @@ const profile = ref({
       <LinkCard
         v-for="link in profile.links"
         :key="link.id"
+        :title="link.title"
+        :url="link.url"
+        :description="link.description"
+        :icon="link.icon"
       />
     </div>
 
