@@ -62,7 +62,7 @@ const icons = {
 
     <!-- Hover Glow Effect -->
     <div
-      class="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-r from-blue-500/0 via-blue-500/10 to-blue-500/0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+      class="pointer-events-none absolute inset-0 rounded-xl bg-gradient-to-r from-green-500/0 via-green-500/10 to-green-500/0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
     />
   </a>
 </template>
