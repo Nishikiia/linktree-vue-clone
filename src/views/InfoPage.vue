@@ -25,7 +25,27 @@ const bio = ref({
     <div
       class="w-full max-w-lg rounded-2xl border border-gray-700 bg-gray-800 p-6 shadow-xl shadow-gray-900/50 sm:p-8"
     >
-      <!-- Steps 3–6 go inside here -->
+      <!-- Header -->
+      <div class="mb-6 flex flex-col items-center text-center sm:flex-row sm:text-left">
+        <!-- Avatar -->
+        <div
+          class="mb-4 h-20 w-20 shrink-0 overflow-hidden rounded-full border-4 border-blue-400 sm:mr-6 sm:mb-0"
+        >
+          <img
+            :src="bio.avatar"
+            :alt="bio.name"
+            class="h-full w-full object-cover"
+          />
+        </div>
+
+        <!-- Name + location -->
+        <div>
+          <h1 class="mb-1 font-display text-2xl font-bold text-white">
+            {{ bio.name }}
+          </h1>
+          <p class="text-sm text-gray-400">📍 {{ bio.location }}</p>
+        </div>
+      </div>
     </div>
   </main>
 </template>
